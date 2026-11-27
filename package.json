@@ -1,0 +1,10 @@
+{
+  "name": "language-drift-checkers",
+  "private": true,
+  "type": "module",
+  "description": "Benchmark: which checker best catches an assistant reply that drifted from the requested language",
+  "dependencies": {
+    "franc": "6.2.0",
+    "tinyld": "1.3.4"
+  }
+}

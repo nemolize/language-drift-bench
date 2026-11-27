@@ -1,0 +1,5087 @@
+{
+ "chosen": {
+  "ratio": {
+   "key": "ratio-0.1-0",
+   "threshold": 0.1,
+   "minLength": 0
+  },
+  "kanaShare": {
+   "key": "kanashare-0.1-20",
+   "threshold": 0.1,
+   "minLength": 20
+  }
+ },
+ "devGrids": {
+  "ratio-0.1-0": {
+   "bySubset": {
+    "ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "en": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "zh": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-en-ja-words": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-ja-en-quote": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-ja": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-en": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "short-zh": {
+     "n": 13,
+     "bad": 13,
+     "errors": 0,
+     "label": "drift"
+    },
+    "kanji-ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "kanji-zh": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "drift"
+    }
+   },
+   "miss": {
+    "bad": 73,
+    "n": 136
+   },
+   "falseAlarm": {
+    "bad": 0,
+    "n": 93
+   },
+   "errors": 0
+  },
+  "ratio-0.1-5": {
+   "bySubset": {
+    "ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "en": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "zh": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-en-ja-words": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-ja-en-quote": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-ja": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-en": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "short-zh": {
+     "n": 13,
+     "bad": 13,
+     "errors": 0,
+     "label": "drift"
+    },
+    "kanji-ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "kanji-zh": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "drift"
+    }
+   },
+   "miss": {
+    "bad": 73,
+    "n": 136
+   },
+   "falseAlarm": {
+    "bad": 0,
+    "n": 93
+   },
+   "errors": 0
+  },
+  "ratio-0.2-0": {
+   "bySubset": {
+    "ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "en": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "zh": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-en-ja-words": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-ja-en-quote": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-ja": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-en": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "short-zh": {
+     "n": 13,
+     "bad": 13,
+     "errors": 0,
+     "label": "drift"
+    },
+    "kanji-ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "kanji-zh": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "drift"
+    }
+   },
+   "miss": {
+    "bad": 73,
+    "n": 136
+   },
+   "falseAlarm": {
+    "bad": 0,
+    "n": 93
+   },
+   "errors": 0
+  },
+  "ratio-0.2-5": {
+   "bySubset": {
+    "ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "en": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "zh": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-en-ja-words": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-ja-en-quote": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-ja": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-en": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "short-zh": {
+     "n": 13,
+     "bad": 13,
+     "errors": 0,
+     "label": "drift"
+    },
+    "kanji-ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "kanji-zh": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "drift"
+    }
+   },
+   "miss": {
+    "bad": 73,
+    "n": 136
+   },
+   "falseAlarm": {
+    "bad": 0,
+    "n": 93
+   },
+   "errors": 0
+  },
+  "ratio-0.3-0": {
+   "bySubset": {
+    "ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "en": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "zh": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-en-ja-words": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-ja-en-quote": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-ja": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-en": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "short-zh": {
+     "n": 13,
+     "bad": 13,
+     "errors": 0,
+     "label": "drift"
+    },
+    "kanji-ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "kanji-zh": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "drift"
+    }
+   },
+   "miss": {
+    "bad": 73,
+    "n": 136
+   },
+   "falseAlarm": {
+    "bad": 0,
+    "n": 93
+   },
+   "errors": 0
+  },
+  "ratio-0.3-5": {
+   "bySubset": {
+    "ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "en": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "zh": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-en-ja-words": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-ja-en-quote": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-ja": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-en": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "short-zh": {
+     "n": 13,
+     "bad": 13,
+     "errors": 0,
+     "label": "drift"
+    },
+    "kanji-ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "kanji-zh": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "drift"
+    }
+   },
+   "miss": {
+    "bad": 73,
+    "n": 136
+   },
+   "falseAlarm": {
+    "bad": 0,
+    "n": 93
+   },
+   "errors": 0
+  },
+  "ratio-0.1-10": {
+   "bySubset": {
+    "ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "en": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "zh": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-en-ja-words": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-ja-en-quote": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-ja": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-en": {
+     "n": 13,
+     "bad": 2,
+     "errors": 0,
+     "label": "drift"
+    },
+    "short-zh": {
+     "n": 13,
+     "bad": 13,
+     "errors": 0,
+     "label": "drift"
+    },
+    "kanji-ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "kanji-zh": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "drift"
+    }
+   },
+   "miss": {
+    "bad": 75,
+    "n": 136
+   },
+   "falseAlarm": {
+    "bad": 0,
+    "n": 93
+   },
+   "errors": 0
+  },
+  "ratio-0.2-10": {
+   "bySubset": {
+    "ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "en": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "zh": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-en-ja-words": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-ja-en-quote": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-ja": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-en": {
+     "n": 13,
+     "bad": 2,
+     "errors": 0,
+     "label": "drift"
+    },
+    "short-zh": {
+     "n": 13,
+     "bad": 13,
+     "errors": 0,
+     "label": "drift"
+    },
+    "kanji-ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "kanji-zh": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "drift"
+    }
+   },
+   "miss": {
+    "bad": 75,
+    "n": 136
+   },
+   "falseAlarm": {
+    "bad": 0,
+    "n": 93
+   },
+   "errors": 0
+  },
+  "ratio-0.3-10": {
+   "bySubset": {
+    "ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "en": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "zh": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-en-ja-words": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-ja-en-quote": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-ja": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-en": {
+     "n": 13,
+     "bad": 2,
+     "errors": 0,
+     "label": "drift"
+    },
+    "short-zh": {
+     "n": 13,
+     "bad": 13,
+     "errors": 0,
+     "label": "drift"
+    },
+    "kanji-ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "kanji-zh": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "drift"
+    }
+   },
+   "miss": {
+    "bad": 75,
+    "n": 136
+   },
+   "falseAlarm": {
+    "bad": 0,
+    "n": 93
+   },
+   "errors": 0
+  },
+  "ratio-0.4-0": {
+   "bySubset": {
+    "ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "en": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "zh": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-en-ja-words": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-ja-en-quote": {
+     "n": 20,
+     "bad": 2,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-ja": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-en": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "short-zh": {
+     "n": 13,
+     "bad": 13,
+     "errors": 0,
+     "label": "drift"
+    },
+    "kanji-ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "kanji-zh": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "drift"
+    }
+   },
+   "miss": {
+    "bad": 73,
+    "n": 136
+   },
+   "falseAlarm": {
+    "bad": 2,
+    "n": 93
+   },
+   "errors": 0
+  },
+  "ratio-0.4-5": {
+   "bySubset": {
+    "ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "en": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "zh": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-en-ja-words": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-ja-en-quote": {
+     "n": 20,
+     "bad": 2,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-ja": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-en": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "short-zh": {
+     "n": 13,
+     "bad": 13,
+     "errors": 0,
+     "label": "drift"
+    },
+    "kanji-ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "kanji-zh": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "drift"
+    }
+   },
+   "miss": {
+    "bad": 73,
+    "n": 136
+   },
+   "falseAlarm": {
+    "bad": 2,
+    "n": 93
+   },
+   "errors": 0
+  },
+  "ratio-0.4-10": {
+   "bySubset": {
+    "ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "en": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "zh": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-en-ja-words": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-ja-en-quote": {
+     "n": 20,
+     "bad": 2,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-ja": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-en": {
+     "n": 13,
+     "bad": 2,
+     "errors": 0,
+     "label": "drift"
+    },
+    "short-zh": {
+     "n": 13,
+     "bad": 13,
+     "errors": 0,
+     "label": "drift"
+    },
+    "kanji-ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "kanji-zh": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "drift"
+    }
+   },
+   "miss": {
+    "bad": 75,
+    "n": 136
+   },
+   "falseAlarm": {
+    "bad": 2,
+    "n": 93
+   },
+   "errors": 0
+  },
+  "ratio-0.1-20": {
+   "bySubset": {
+    "ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "en": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "zh": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-en-ja-words": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-ja-en-quote": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-ja": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-en": {
+     "n": 13,
+     "bad": 13,
+     "errors": 0,
+     "label": "drift"
+    },
+    "short-zh": {
+     "n": 13,
+     "bad": 13,
+     "errors": 0,
+     "label": "drift"
+    },
+    "kanji-ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "kanji-zh": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "drift"
+    }
+   },
+   "miss": {
+    "bad": 86,
+    "n": 136
+   },
+   "falseAlarm": {
+    "bad": 0,
+    "n": 93
+   },
+   "errors": 0
+  },
+  "ratio-0.2-20": {
+   "bySubset": {
+    "ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "en": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "zh": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-en-ja-words": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-ja-en-quote": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-ja": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-en": {
+     "n": 13,
+     "bad": 13,
+     "errors": 0,
+     "label": "drift"
+    },
+    "short-zh": {
+     "n": 13,
+     "bad": 13,
+     "errors": 0,
+     "label": "drift"
+    },
+    "kanji-ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "kanji-zh": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "drift"
+    }
+   },
+   "miss": {
+    "bad": 86,
+    "n": 136
+   },
+   "falseAlarm": {
+    "bad": 0,
+    "n": 93
+   },
+   "errors": 0
+  },
+  "ratio-0.3-20": {
+   "bySubset": {
+    "ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "en": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "zh": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-en-ja-words": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-ja-en-quote": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-ja": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-en": {
+     "n": 13,
+     "bad": 13,
+     "errors": 0,
+     "label": "drift"
+    },
+    "short-zh": {
+     "n": 13,
+     "bad": 13,
+     "errors": 0,
+     "label": "drift"
+    },
+    "kanji-ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "kanji-zh": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "drift"
+    }
+   },
+   "miss": {
+    "bad": 86,
+    "n": 136
+   },
+   "falseAlarm": {
+    "bad": 0,
+    "n": 93
+   },
+   "errors": 0
+  },
+  "ratio-0.4-20": {
+   "bySubset": {
+    "ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "en": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "zh": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-en-ja-words": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-ja-en-quote": {
+     "n": 20,
+     "bad": 2,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-ja": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-en": {
+     "n": 13,
+     "bad": 13,
+     "errors": 0,
+     "label": "drift"
+    },
+    "short-zh": {
+     "n": 13,
+     "bad": 13,
+     "errors": 0,
+     "label": "drift"
+    },
+    "kanji-ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "kanji-zh": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "drift"
+    }
+   },
+   "miss": {
+    "bad": 86,
+    "n": 136
+   },
+   "falseAlarm": {
+    "bad": 2,
+    "n": 93
+   },
+   "errors": 0
+  },
+  "ratio-0.5-0": {
+   "bySubset": {
+    "ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "en": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "zh": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-en-ja-words": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-ja-en-quote": {
+     "n": 20,
+     "bad": 15,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-ja": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-en": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "short-zh": {
+     "n": 13,
+     "bad": 13,
+     "errors": 0,
+     "label": "drift"
+    },
+    "kanji-ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "kanji-zh": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "drift"
+    }
+   },
+   "miss": {
+    "bad": 73,
+    "n": 136
+   },
+   "falseAlarm": {
+    "bad": 15,
+    "n": 93
+   },
+   "errors": 0
+  },
+  "ratio-0.5-5": {
+   "bySubset": {
+    "ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "en": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "zh": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-en-ja-words": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-ja-en-quote": {
+     "n": 20,
+     "bad": 15,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-ja": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-en": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "short-zh": {
+     "n": 13,
+     "bad": 13,
+     "errors": 0,
+     "label": "drift"
+    },
+    "kanji-ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "kanji-zh": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "drift"
+    }
+   },
+   "miss": {
+    "bad": 73,
+    "n": 136
+   },
+   "falseAlarm": {
+    "bad": 15,
+    "n": 93
+   },
+   "errors": 0
+  },
+  "ratio-0.5-10": {
+   "bySubset": {
+    "ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "en": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "zh": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-en-ja-words": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-ja-en-quote": {
+     "n": 20,
+     "bad": 15,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-ja": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-en": {
+     "n": 13,
+     "bad": 2,
+     "errors": 0,
+     "label": "drift"
+    },
+    "short-zh": {
+     "n": 13,
+     "bad": 13,
+     "errors": 0,
+     "label": "drift"
+    },
+    "kanji-ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "kanji-zh": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "drift"
+    }
+   },
+   "miss": {
+    "bad": 75,
+    "n": 136
+   },
+   "falseAlarm": {
+    "bad": 15,
+    "n": 93
+   },
+   "errors": 0
+  },
+  "ratio-0.6-0": {
+   "bySubset": {
+    "ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "en": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "zh": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-en-ja-words": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-ja-en-quote": {
+     "n": 20,
+     "bad": 20,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-ja": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-en": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "short-zh": {
+     "n": 13,
+     "bad": 13,
+     "errors": 0,
+     "label": "drift"
+    },
+    "kanji-ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "kanji-zh": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "drift"
+    }
+   },
+   "miss": {
+    "bad": 73,
+    "n": 136
+   },
+   "falseAlarm": {
+    "bad": 20,
+    "n": 93
+   },
+   "errors": 0
+  },
+  "ratio-0.6-5": {
+   "bySubset": {
+    "ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "en": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "zh": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-en-ja-words": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-ja-en-quote": {
+     "n": 20,
+     "bad": 20,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-ja": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-en": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "short-zh": {
+     "n": 13,
+     "bad": 13,
+     "errors": 0,
+     "label": "drift"
+    },
+    "kanji-ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "kanji-zh": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "drift"
+    }
+   },
+   "miss": {
+    "bad": 73,
+    "n": 136
+   },
+   "falseAlarm": {
+    "bad": 20,
+    "n": 93
+   },
+   "errors": 0
+  },
+  "ratio-0.6-10": {
+   "bySubset": {
+    "ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "en": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "zh": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-en-ja-words": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-ja-en-quote": {
+     "n": 20,
+     "bad": 20,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-ja": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-en": {
+     "n": 13,
+     "bad": 2,
+     "errors": 0,
+     "label": "drift"
+    },
+    "short-zh": {
+     "n": 13,
+     "bad": 13,
+     "errors": 0,
+     "label": "drift"
+    },
+    "kanji-ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "kanji-zh": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "drift"
+    }
+   },
+   "miss": {
+    "bad": 75,
+    "n": 136
+   },
+   "falseAlarm": {
+    "bad": 20,
+    "n": 93
+   },
+   "errors": 0
+  },
+  "ratio-0.5-20": {
+   "bySubset": {
+    "ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "en": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "zh": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-en-ja-words": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-ja-en-quote": {
+     "n": 20,
+     "bad": 15,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-ja": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-en": {
+     "n": 13,
+     "bad": 13,
+     "errors": 0,
+     "label": "drift"
+    },
+    "short-zh": {
+     "n": 13,
+     "bad": 13,
+     "errors": 0,
+     "label": "drift"
+    },
+    "kanji-ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "kanji-zh": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "drift"
+    }
+   },
+   "miss": {
+    "bad": 86,
+    "n": 136
+   },
+   "falseAlarm": {
+    "bad": 15,
+    "n": 93
+   },
+   "errors": 0
+  },
+  "ratio-0.6-20": {
+   "bySubset": {
+    "ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "en": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "zh": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-en-ja-words": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-ja-en-quote": {
+     "n": 20,
+     "bad": 20,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-ja": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-en": {
+     "n": 13,
+     "bad": 13,
+     "errors": 0,
+     "label": "drift"
+    },
+    "short-zh": {
+     "n": 13,
+     "bad": 13,
+     "errors": 0,
+     "label": "drift"
+    },
+    "kanji-ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "kanji-zh": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "drift"
+    }
+   },
+   "miss": {
+    "bad": 86,
+    "n": 136
+   },
+   "falseAlarm": {
+    "bad": 20,
+    "n": 93
+   },
+   "errors": 0
+  },
+  "kanashare-0.1-20": {
+   "bySubset": {
+    "ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "en": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "zh": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-en-ja-words": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-ja-en-quote": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-ja": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-en": {
+     "n": 13,
+     "bad": 13,
+     "errors": 0,
+     "label": "drift"
+    },
+    "short-zh": {
+     "n": 13,
+     "bad": 13,
+     "errors": 0,
+     "label": "drift"
+    },
+    "kanji-ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "kanji-zh": {
+     "n": 30,
+     "bad": 15,
+     "errors": 0,
+     "label": "drift"
+    }
+   },
+   "miss": {
+    "bad": 41,
+    "n": 136
+   },
+   "falseAlarm": {
+    "bad": 0,
+    "n": 93
+   },
+   "errors": 0
+  },
+  "kanashare-0.2-20": {
+   "bySubset": {
+    "ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "en": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "zh": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-en-ja-words": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-ja-en-quote": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-ja": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-en": {
+     "n": 13,
+     "bad": 13,
+     "errors": 0,
+     "label": "drift"
+    },
+    "short-zh": {
+     "n": 13,
+     "bad": 13,
+     "errors": 0,
+     "label": "drift"
+    },
+    "kanji-ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "kanji-zh": {
+     "n": 30,
+     "bad": 15,
+     "errors": 0,
+     "label": "drift"
+    }
+   },
+   "miss": {
+    "bad": 41,
+    "n": 136
+   },
+   "falseAlarm": {
+    "bad": 0,
+    "n": 93
+   },
+   "errors": 0
+  },
+  "kanashare-0.1-0": {
+   "bySubset": {
+    "ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "en": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "zh": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-en-ja-words": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-ja-en-quote": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-ja": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-en": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "short-zh": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "kanji-ja": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "ja"
+    },
+    "kanji-zh": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    }
+   },
+   "miss": {
+    "bad": 0,
+    "n": 136
+   },
+   "falseAlarm": {
+    "bad": 30,
+    "n": 93
+   },
+   "errors": 0
+  },
+  "kanashare-0.2-0": {
+   "bySubset": {
+    "ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "en": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "zh": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-en-ja-words": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-ja-en-quote": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-ja": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-en": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "short-zh": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "kanji-ja": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "ja"
+    },
+    "kanji-zh": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    }
+   },
+   "miss": {
+    "bad": 0,
+    "n": 136
+   },
+   "falseAlarm": {
+    "bad": 30,
+    "n": 93
+   },
+   "errors": 0
+  },
+  "kanashare-0.1-5": {
+   "bySubset": {
+    "ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "en": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "zh": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-en-ja-words": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-ja-en-quote": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-ja": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-en": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "short-zh": {
+     "n": 13,
+     "bad": 1,
+     "errors": 0,
+     "label": "drift"
+    },
+    "kanji-ja": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "ja"
+    },
+    "kanji-zh": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    }
+   },
+   "miss": {
+    "bad": 1,
+    "n": 136
+   },
+   "falseAlarm": {
+    "bad": 30,
+    "n": 93
+   },
+   "errors": 0
+  },
+  "kanashare-0.2-5": {
+   "bySubset": {
+    "ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "en": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "zh": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-en-ja-words": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-ja-en-quote": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-ja": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-en": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "short-zh": {
+     "n": 13,
+     "bad": 1,
+     "errors": 0,
+     "label": "drift"
+    },
+    "kanji-ja": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "ja"
+    },
+    "kanji-zh": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    }
+   },
+   "miss": {
+    "bad": 1,
+    "n": 136
+   },
+   "falseAlarm": {
+    "bad": 30,
+    "n": 93
+   },
+   "errors": 0
+  },
+  "kanashare-0.05-20": {
+   "bySubset": {
+    "ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "en": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "zh": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-en-ja-words": {
+     "n": 20,
+     "bad": 5,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-ja-en-quote": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-ja": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-en": {
+     "n": 13,
+     "bad": 13,
+     "errors": 0,
+     "label": "drift"
+    },
+    "short-zh": {
+     "n": 13,
+     "bad": 13,
+     "errors": 0,
+     "label": "drift"
+    },
+    "kanji-ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "kanji-zh": {
+     "n": 30,
+     "bad": 15,
+     "errors": 0,
+     "label": "drift"
+    }
+   },
+   "miss": {
+    "bad": 46,
+    "n": 136
+   },
+   "falseAlarm": {
+    "bad": 0,
+    "n": 93
+   },
+   "errors": 0
+  },
+  "kanashare-0.3-20": {
+   "bySubset": {
+    "ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "en": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "zh": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-en-ja-words": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-ja-en-quote": {
+     "n": 20,
+     "bad": 4,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-ja": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-en": {
+     "n": 13,
+     "bad": 13,
+     "errors": 0,
+     "label": "drift"
+    },
+    "short-zh": {
+     "n": 13,
+     "bad": 13,
+     "errors": 0,
+     "label": "drift"
+    },
+    "kanji-ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "kanji-zh": {
+     "n": 30,
+     "bad": 15,
+     "errors": 0,
+     "label": "drift"
+    }
+   },
+   "miss": {
+    "bad": 41,
+    "n": 136
+   },
+   "falseAlarm": {
+    "bad": 4,
+    "n": 93
+   },
+   "errors": 0
+  },
+  "kanashare-0.05-0": {
+   "bySubset": {
+    "ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "en": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "zh": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-en-ja-words": {
+     "n": 20,
+     "bad": 5,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-ja-en-quote": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-ja": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-en": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "short-zh": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "kanji-ja": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "ja"
+    },
+    "kanji-zh": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    }
+   },
+   "miss": {
+    "bad": 5,
+    "n": 136
+   },
+   "falseAlarm": {
+    "bad": 30,
+    "n": 93
+   },
+   "errors": 0
+  },
+  "kanashare-0.3-0": {
+   "bySubset": {
+    "ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "en": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "zh": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-en-ja-words": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-ja-en-quote": {
+     "n": 20,
+     "bad": 4,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-ja": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-en": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "short-zh": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "kanji-ja": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "ja"
+    },
+    "kanji-zh": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    }
+   },
+   "miss": {
+    "bad": 0,
+    "n": 136
+   },
+   "falseAlarm": {
+    "bad": 34,
+    "n": 93
+   },
+   "errors": 0
+  },
+  "kanashare-0.05-5": {
+   "bySubset": {
+    "ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "en": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "zh": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-en-ja-words": {
+     "n": 20,
+     "bad": 5,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-ja-en-quote": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-ja": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-en": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "short-zh": {
+     "n": 13,
+     "bad": 1,
+     "errors": 0,
+     "label": "drift"
+    },
+    "kanji-ja": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "ja"
+    },
+    "kanji-zh": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    }
+   },
+   "miss": {
+    "bad": 6,
+    "n": 136
+   },
+   "falseAlarm": {
+    "bad": 30,
+    "n": 93
+   },
+   "errors": 0
+  },
+  "kanashare-0.3-5": {
+   "bySubset": {
+    "ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "en": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "zh": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-en-ja-words": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-ja-en-quote": {
+     "n": 20,
+     "bad": 4,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-ja": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-en": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "short-zh": {
+     "n": 13,
+     "bad": 1,
+     "errors": 0,
+     "label": "drift"
+    },
+    "kanji-ja": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "ja"
+    },
+    "kanji-zh": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    }
+   },
+   "miss": {
+    "bad": 1,
+    "n": 136
+   },
+   "falseAlarm": {
+    "bad": 34,
+    "n": 93
+   },
+   "errors": 0
+  },
+  "kanashare-0.1-10": {
+   "bySubset": {
+    "ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "en": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "zh": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-en-ja-words": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-ja-en-quote": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-ja": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-en": {
+     "n": 13,
+     "bad": 2,
+     "errors": 0,
+     "label": "drift"
+    },
+    "short-zh": {
+     "n": 13,
+     "bad": 13,
+     "errors": 0,
+     "label": "drift"
+    },
+    "kanji-ja": {
+     "n": 30,
+     "bad": 15,
+     "errors": 0,
+     "label": "ja"
+    },
+    "kanji-zh": {
+     "n": 30,
+     "bad": 15,
+     "errors": 0,
+     "label": "drift"
+    }
+   },
+   "miss": {
+    "bad": 30,
+    "n": 136
+   },
+   "falseAlarm": {
+    "bad": 15,
+    "n": 93
+   },
+   "errors": 0
+  },
+  "kanashare-0.2-10": {
+   "bySubset": {
+    "ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "en": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "zh": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-en-ja-words": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-ja-en-quote": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-ja": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-en": {
+     "n": 13,
+     "bad": 2,
+     "errors": 0,
+     "label": "drift"
+    },
+    "short-zh": {
+     "n": 13,
+     "bad": 13,
+     "errors": 0,
+     "label": "drift"
+    },
+    "kanji-ja": {
+     "n": 30,
+     "bad": 15,
+     "errors": 0,
+     "label": "ja"
+    },
+    "kanji-zh": {
+     "n": 30,
+     "bad": 15,
+     "errors": 0,
+     "label": "drift"
+    }
+   },
+   "miss": {
+    "bad": 30,
+    "n": 136
+   },
+   "falseAlarm": {
+    "bad": 15,
+    "n": 93
+   },
+   "errors": 0
+  },
+  "kanashare-0.02-20": {
+   "bySubset": {
+    "ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "en": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "zh": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-en-ja-words": {
+     "n": 20,
+     "bad": 11,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-ja-en-quote": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-ja": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-en": {
+     "n": 13,
+     "bad": 13,
+     "errors": 0,
+     "label": "drift"
+    },
+    "short-zh": {
+     "n": 13,
+     "bad": 13,
+     "errors": 0,
+     "label": "drift"
+    },
+    "kanji-ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "kanji-zh": {
+     "n": 30,
+     "bad": 15,
+     "errors": 0,
+     "label": "drift"
+    }
+   },
+   "miss": {
+    "bad": 52,
+    "n": 136
+   },
+   "falseAlarm": {
+    "bad": 0,
+    "n": 93
+   },
+   "errors": 0
+  },
+  "kanashare-0.02-0": {
+   "bySubset": {
+    "ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "en": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "zh": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-en-ja-words": {
+     "n": 20,
+     "bad": 11,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-ja-en-quote": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-ja": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-en": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "short-zh": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "kanji-ja": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "ja"
+    },
+    "kanji-zh": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    }
+   },
+   "miss": {
+    "bad": 11,
+    "n": 136
+   },
+   "falseAlarm": {
+    "bad": 30,
+    "n": 93
+   },
+   "errors": 0
+  },
+  "kanashare-0.02-5": {
+   "bySubset": {
+    "ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "en": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "zh": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-en-ja-words": {
+     "n": 20,
+     "bad": 11,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-ja-en-quote": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-ja": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-en": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "short-zh": {
+     "n": 13,
+     "bad": 1,
+     "errors": 0,
+     "label": "drift"
+    },
+    "kanji-ja": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "ja"
+    },
+    "kanji-zh": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    }
+   },
+   "miss": {
+    "bad": 12,
+    "n": 136
+   },
+   "falseAlarm": {
+    "bad": 30,
+    "n": 93
+   },
+   "errors": 0
+  },
+  "kanashare-0.05-10": {
+   "bySubset": {
+    "ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "en": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "zh": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-en-ja-words": {
+     "n": 20,
+     "bad": 5,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-ja-en-quote": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-ja": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-en": {
+     "n": 13,
+     "bad": 2,
+     "errors": 0,
+     "label": "drift"
+    },
+    "short-zh": {
+     "n": 13,
+     "bad": 13,
+     "errors": 0,
+     "label": "drift"
+    },
+    "kanji-ja": {
+     "n": 30,
+     "bad": 15,
+     "errors": 0,
+     "label": "ja"
+    },
+    "kanji-zh": {
+     "n": 30,
+     "bad": 15,
+     "errors": 0,
+     "label": "drift"
+    }
+   },
+   "miss": {
+    "bad": 35,
+    "n": 136
+   },
+   "falseAlarm": {
+    "bad": 15,
+    "n": 93
+   },
+   "errors": 0
+  },
+  "kanashare-0.3-10": {
+   "bySubset": {
+    "ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "en": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "zh": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-en-ja-words": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-ja-en-quote": {
+     "n": 20,
+     "bad": 4,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-ja": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-en": {
+     "n": 13,
+     "bad": 2,
+     "errors": 0,
+     "label": "drift"
+    },
+    "short-zh": {
+     "n": 13,
+     "bad": 13,
+     "errors": 0,
+     "label": "drift"
+    },
+    "kanji-ja": {
+     "n": 30,
+     "bad": 15,
+     "errors": 0,
+     "label": "ja"
+    },
+    "kanji-zh": {
+     "n": 30,
+     "bad": 15,
+     "errors": 0,
+     "label": "drift"
+    }
+   },
+   "miss": {
+    "bad": 30,
+    "n": 136
+   },
+   "falseAlarm": {
+    "bad": 19,
+    "n": 93
+   },
+   "errors": 0
+  },
+  "kanashare-0.02-10": {
+   "bySubset": {
+    "ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "en": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "zh": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-en-ja-words": {
+     "n": 20,
+     "bad": 11,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-ja-en-quote": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-ja": {
+     "n": 13,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-en": {
+     "n": 13,
+     "bad": 2,
+     "errors": 0,
+     "label": "drift"
+    },
+    "short-zh": {
+     "n": 13,
+     "bad": 13,
+     "errors": 0,
+     "label": "drift"
+    },
+    "kanji-ja": {
+     "n": 30,
+     "bad": 15,
+     "errors": 0,
+     "label": "ja"
+    },
+    "kanji-zh": {
+     "n": 30,
+     "bad": 15,
+     "errors": 0,
+     "label": "drift"
+    }
+   },
+   "miss": {
+    "bad": 41,
+    "n": 136
+   },
+   "falseAlarm": {
+    "bad": 15,
+    "n": 93
+   },
+   "errors": 0
+  }
+ },
+ "checkers": [
+  {
+   "key": "ratio-0.1-0",
+   "label": "character ratio (kana+kanji share >= 0.1, min 0 chars)",
+   "bySubset": {
+    "ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "en": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "zh": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-en-ja-words": {
+     "n": 20,
+     "bad": 2,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-ja-en-quote": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-ja": {
+     "n": 12,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-en": {
+     "n": 12,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "short-zh": {
+     "n": 12,
+     "bad": 12,
+     "errors": 0,
+     "label": "drift"
+    },
+    "kanji-ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "kanji-zh": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "drift"
+    }
+   },
+   "miss": {
+    "bad": 74,
+    "n": 134
+   },
+   "falseAlarm": {
+    "bad": 0,
+    "n": 92
+   },
+   "errors": 0,
+   "code": {
+    "bySubset": {
+     "code-ja": {
+      "n": 30,
+      "bad": 0,
+      "errors": 0,
+      "label": "ja"
+     },
+     "code-en": {
+      "n": 15,
+      "bad": 0,
+      "errors": 0,
+      "label": "drift"
+     },
+     "code-zh": {
+      "n": 15,
+      "bad": 15,
+      "errors": 0,
+      "label": "drift"
+     }
+    },
+    "miss": {
+     "bad": 15,
+     "n": 30
+    },
+    "falseAlarm": {
+     "bad": 0,
+     "n": 30
+    },
+    "errors": 0
+   },
+   "medianMs": 0.0014,
+   "p95Ms": 0.0041,
+   "n": 226
+  },
+  {
+   "key": "ratio-0.1-0-raw",
+   "label": "character ratio, same setting, code not removed",
+   "bySubset": {
+    "ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "en": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "zh": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-en-ja-words": {
+     "n": 20,
+     "bad": 2,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-ja-en-quote": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-ja": {
+     "n": 12,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-en": {
+     "n": 12,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "short-zh": {
+     "n": 12,
+     "bad": 12,
+     "errors": 0,
+     "label": "drift"
+    },
+    "kanji-ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "kanji-zh": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "drift"
+    }
+   },
+   "miss": {
+    "bad": 74,
+    "n": 134
+   },
+   "falseAlarm": {
+    "bad": 0,
+    "n": 92
+   },
+   "errors": 0,
+   "code": {
+    "bySubset": {
+     "code-ja": {
+      "n": 30,
+      "bad": 0,
+      "errors": 0,
+      "label": "ja"
+     },
+     "code-en": {
+      "n": 15,
+      "bad": 8,
+      "errors": 0,
+      "label": "drift"
+     },
+     "code-zh": {
+      "n": 15,
+      "bad": 15,
+      "errors": 0,
+      "label": "drift"
+     }
+    },
+    "miss": {
+     "bad": 23,
+     "n": 30
+    },
+    "falseAlarm": {
+     "bad": 0,
+     "n": 30
+    },
+    "errors": 0
+   },
+   "medianMs": 0.0013,
+   "p95Ms": 0.0038,
+   "n": 226
+  },
+  {
+   "key": "kanashare-0.1-20",
+   "label": "kana share (kana share >= 0.1, min 20 chars)",
+   "bySubset": {
+    "ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "en": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "zh": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-en-ja-words": {
+     "n": 20,
+     "bad": 2,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-ja-en-quote": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-ja": {
+     "n": 12,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-en": {
+     "n": 12,
+     "bad": 12,
+     "errors": 0,
+     "label": "drift"
+    },
+    "short-zh": {
+     "n": 12,
+     "bad": 12,
+     "errors": 0,
+     "label": "drift"
+    },
+    "kanji-ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "kanji-zh": {
+     "n": 30,
+     "bad": 15,
+     "errors": 0,
+     "label": "drift"
+    }
+   },
+   "miss": {
+    "bad": 41,
+    "n": 134
+   },
+   "falseAlarm": {
+    "bad": 0,
+    "n": 92
+   },
+   "errors": 0,
+   "code": {
+    "bySubset": {
+     "code-ja": {
+      "n": 30,
+      "bad": 0,
+      "errors": 0,
+      "label": "ja"
+     },
+     "code-en": {
+      "n": 15,
+      "bad": 0,
+      "errors": 0,
+      "label": "drift"
+     },
+     "code-zh": {
+      "n": 15,
+      "bad": 0,
+      "errors": 0,
+      "label": "drift"
+     }
+    },
+    "miss": {
+     "bad": 0,
+     "n": 30
+    },
+    "falseAlarm": {
+     "bad": 0,
+     "n": 30
+    },
+    "errors": 0
+   },
+   "medianMs": 0.0007,
+   "p95Ms": 0.0035,
+   "n": 226
+  },
+  {
+   "key": "kanashare-0.1-20-raw",
+   "label": "kana share, same setting, code not removed",
+   "bySubset": {
+    "ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "en": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "zh": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-en-ja-words": {
+     "n": 20,
+     "bad": 2,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-ja-en-quote": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-ja": {
+     "n": 12,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-en": {
+     "n": 12,
+     "bad": 12,
+     "errors": 0,
+     "label": "drift"
+    },
+    "short-zh": {
+     "n": 12,
+     "bad": 12,
+     "errors": 0,
+     "label": "drift"
+    },
+    "kanji-ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "kanji-zh": {
+     "n": 30,
+     "bad": 15,
+     "errors": 0,
+     "label": "drift"
+    }
+   },
+   "miss": {
+    "bad": 41,
+    "n": 134
+   },
+   "falseAlarm": {
+    "bad": 0,
+    "n": 92
+   },
+   "errors": 0,
+   "code": {
+    "bySubset": {
+     "code-ja": {
+      "n": 30,
+      "bad": 0,
+      "errors": 0,
+      "label": "ja"
+     },
+     "code-en": {
+      "n": 15,
+      "bad": 8,
+      "errors": 0,
+      "label": "drift"
+     },
+     "code-zh": {
+      "n": 15,
+      "bad": 0,
+      "errors": 0,
+      "label": "drift"
+     }
+    },
+    "miss": {
+     "bad": 8,
+     "n": 30
+    },
+    "falseAlarm": {
+     "bad": 0,
+     "n": 30
+    },
+    "errors": 0
+   },
+   "medianMs": 0.0007,
+   "p95Ms": 0.0034,
+   "n": 226
+  },
+  {
+   "key": "kana",
+   "label": "kana presence",
+   "bySubset": {
+    "ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "en": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "zh": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-en-ja-words": {
+     "n": 20,
+     "bad": 11,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-ja-en-quote": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-ja": {
+     "n": 12,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-en": {
+     "n": 12,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "short-zh": {
+     "n": 12,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "kanji-ja": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "ja"
+    },
+    "kanji-zh": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    }
+   },
+   "miss": {
+    "bad": 11,
+    "n": 134
+   },
+   "falseAlarm": {
+    "bad": 30,
+    "n": 92
+   },
+   "errors": 0,
+   "code": {
+    "bySubset": {
+     "code-ja": {
+      "n": 30,
+      "bad": 0,
+      "errors": 0,
+      "label": "ja"
+     },
+     "code-en": {
+      "n": 15,
+      "bad": 0,
+      "errors": 0,
+      "label": "drift"
+     },
+     "code-zh": {
+      "n": 15,
+      "bad": 0,
+      "errors": 0,
+      "label": "drift"
+     }
+    },
+    "miss": {
+     "bad": 0,
+     "n": 30
+    },
+    "falseAlarm": {
+     "bad": 0,
+     "n": 30
+    },
+    "errors": 0
+   },
+   "medianMs": 0.0001,
+   "p95Ms": 0.0003,
+   "n": 226
+  },
+  {
+   "key": "kana-raw",
+   "label": "kana presence, code not removed",
+   "bySubset": {
+    "ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "en": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "zh": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-en-ja-words": {
+     "n": 20,
+     "bad": 11,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-ja-en-quote": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-ja": {
+     "n": 12,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-en": {
+     "n": 12,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "short-zh": {
+     "n": 12,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "kanji-ja": {
+     "n": 30,
+     "bad": 30,
+     "errors": 0,
+     "label": "ja"
+    },
+    "kanji-zh": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    }
+   },
+   "miss": {
+    "bad": 11,
+    "n": 134
+   },
+   "falseAlarm": {
+    "bad": 30,
+    "n": 92
+   },
+   "errors": 0,
+   "code": {
+    "bySubset": {
+     "code-ja": {
+      "n": 30,
+      "bad": 0,
+      "errors": 0,
+      "label": "ja"
+     },
+     "code-en": {
+      "n": 15,
+      "bad": 8,
+      "errors": 0,
+      "label": "drift"
+     },
+     "code-zh": {
+      "n": 15,
+      "bad": 0,
+      "errors": 0,
+      "label": "drift"
+     }
+    },
+    "miss": {
+     "bad": 8,
+     "n": 30
+    },
+    "falseAlarm": {
+     "bad": 0,
+     "n": 30
+    },
+    "errors": 0
+   },
+   "medianMs": 0.0001,
+   "p95Ms": 0.0002,
+   "n": 226
+  },
+  {
+   "key": "franc",
+   "label": "franc 6.2.0",
+   "bySubset": {
+    "ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "en": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "zh": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-en-ja-words": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-ja-en-quote": {
+     "n": 20,
+     "bad": 14,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-ja": {
+     "n": 12,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-en": {
+     "n": 12,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "short-zh": {
+     "n": 12,
+     "bad": 12,
+     "errors": 0,
+     "label": "drift"
+    },
+    "kanji-ja": {
+     "n": 30,
+     "bad": 15,
+     "errors": 0,
+     "label": "ja"
+    },
+    "kanji-zh": {
+     "n": 30,
+     "bad": 15,
+     "errors": 0,
+     "label": "drift"
+    }
+   },
+   "miss": {
+    "bad": 27,
+    "n": 134
+   },
+   "falseAlarm": {
+    "bad": 29,
+    "n": 92
+   },
+   "errors": 0,
+   "code": {
+    "bySubset": {
+     "code-ja": {
+      "n": 30,
+      "bad": 0,
+      "errors": 0,
+      "label": "ja"
+     },
+     "code-en": {
+      "n": 15,
+      "bad": 0,
+      "errors": 0,
+      "label": "drift"
+     },
+     "code-zh": {
+      "n": 15,
+      "bad": 0,
+      "errors": 0,
+      "label": "drift"
+     }
+    },
+    "miss": {
+     "bad": 0,
+     "n": 30
+    },
+    "falseAlarm": {
+     "bad": 0,
+     "n": 30
+    },
+    "errors": 0
+   },
+   "medianMs": 0.0049,
+   "p95Ms": 0.4916,
+   "n": 226
+  },
+  {
+   "key": "tinyld",
+   "label": "tinyld 1.3.4",
+   "bySubset": {
+    "ja": {
+     "n": 30,
+     "bad": 1,
+     "errors": 0,
+     "label": "ja"
+    },
+    "en": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "zh": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-en-ja-words": {
+     "n": 20,
+     "bad": 5,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-ja-en-quote": {
+     "n": 20,
+     "bad": 7,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-ja": {
+     "n": 12,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-en": {
+     "n": 12,
+     "bad": 1,
+     "errors": 0,
+     "label": "drift"
+    },
+    "short-zh": {
+     "n": 12,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "kanji-ja": {
+     "n": 30,
+     "bad": 15,
+     "errors": 0,
+     "label": "ja"
+    },
+    "kanji-zh": {
+     "n": 30,
+     "bad": 3,
+     "errors": 0,
+     "label": "drift"
+    }
+   },
+   "miss": {
+    "bad": 9,
+    "n": 134
+   },
+   "falseAlarm": {
+    "bad": 23,
+    "n": 92
+   },
+   "errors": 0,
+   "code": {
+    "bySubset": {
+     "code-ja": {
+      "n": 30,
+      "bad": 0,
+      "errors": 0,
+      "label": "ja"
+     },
+     "code-en": {
+      "n": 15,
+      "bad": 0,
+      "errors": 0,
+      "label": "drift"
+     },
+     "code-zh": {
+      "n": 15,
+      "bad": 0,
+      "errors": 0,
+      "label": "drift"
+     }
+    },
+    "miss": {
+     "bad": 0,
+     "n": 30
+    },
+    "falseAlarm": {
+     "bad": 0,
+     "n": 30
+    },
+    "errors": 0
+   },
+   "medianMs": 0.03155,
+   "p95Ms": 0.323,
+   "n": 226
+  },
+  {
+   "key": "fasttext",
+   "label": "fastText lid.176",
+   "bySubset": {
+    "ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "en": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "zh": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-en-ja-words": {
+     "n": 20,
+     "bad": 4,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-ja-en-quote": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-ja": {
+     "n": 12,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-en": {
+     "n": 12,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "short-zh": {
+     "n": 12,
+     "bad": 3,
+     "errors": 0,
+     "label": "drift"
+    },
+    "kanji-ja": {
+     "n": 30,
+     "bad": 9,
+     "errors": 0,
+     "label": "ja"
+    },
+    "kanji-zh": {
+     "n": 30,
+     "bad": 4,
+     "errors": 0,
+     "label": "drift"
+    }
+   },
+   "miss": {
+    "bad": 11,
+    "n": 134
+   },
+   "falseAlarm": {
+    "bad": 9,
+    "n": 92
+   },
+   "errors": 0,
+   "code": {
+    "bySubset": {
+     "code-ja": {
+      "n": 30,
+      "bad": 0,
+      "errors": 0,
+      "label": "ja"
+     },
+     "code-en": {
+      "n": 15,
+      "bad": 0,
+      "errors": 0,
+      "label": "drift"
+     },
+     "code-zh": {
+      "n": 15,
+      "bad": 0,
+      "errors": 0,
+      "label": "drift"
+     }
+    },
+    "miss": {
+     "bad": 0,
+     "n": 30
+    },
+    "falseAlarm": {
+     "bad": 0,
+     "n": 30
+    },
+    "errors": 0
+   },
+   "medianMs": 0.0075,
+   "p95Ms": 0.0165,
+   "n": 226
+  },
+  {
+   "key": "claude-haiku-5-5-nothink",
+   "label": "claude-haiku-5-5 (no thinking)",
+   "bySubset": {
+    "ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "en": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "zh": {
+     "n": 30,
+     "bad": 5,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-en-ja-words": {
+     "n": 20,
+     "bad": 1,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-ja-en-quote": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-ja": {
+     "n": 12,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-en": {
+     "n": 12,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "short-zh": {
+     "n": 12,
+     "bad": 5,
+     "errors": 0,
+     "label": "drift"
+    },
+    "kanji-ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "kanji-zh": {
+     "n": 30,
+     "bad": 8,
+     "errors": 0,
+     "label": "drift"
+    }
+   },
+   "miss": {
+    "bad": 19,
+    "n": 134
+   },
+   "falseAlarm": {
+    "bad": 0,
+    "n": 92
+   },
+   "errors": 0,
+   "code": {
+    "bySubset": {
+     "code-ja": {
+      "n": 30,
+      "bad": 0,
+      "errors": 0,
+      "label": "ja"
+     },
+     "code-en": {
+      "n": 15,
+      "bad": 0,
+      "errors": 0,
+      "label": "drift"
+     },
+     "code-zh": {
+      "n": 15,
+      "bad": 2,
+      "errors": 0,
+      "label": "drift"
+     }
+    },
+    "miss": {
+     "bad": 2,
+     "n": 30
+    },
+    "falseAlarm": {
+     "bad": 0,
+     "n": 30
+    },
+    "errors": 0
+   },
+   "medianMs": 516.01115,
+   "p95Ms": 1354.6964,
+   "n": 226
+  },
+  {
+   "key": "claude-haiku-5-5",
+   "label": "claude-haiku-5-5",
+   "bySubset": {
+    "ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "en": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "zh": {
+     "n": 30,
+     "bad": 4,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-en-ja-words": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-ja-en-quote": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-ja": {
+     "n": 12,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-en": {
+     "n": 12,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "short-zh": {
+     "n": 12,
+     "bad": 5,
+     "errors": 0,
+     "label": "drift"
+    },
+    "kanji-ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "kanji-zh": {
+     "n": 30,
+     "bad": 6,
+     "errors": 0,
+     "label": "drift"
+    }
+   },
+   "miss": {
+    "bad": 15,
+    "n": 134
+   },
+   "falseAlarm": {
+    "bad": 0,
+    "n": 92
+   },
+   "errors": 0,
+   "code": {
+    "bySubset": {
+     "code-ja": {
+      "n": 30,
+      "bad": 0,
+      "errors": 0,
+      "label": "ja"
+     },
+     "code-en": {
+      "n": 15,
+      "bad": 0,
+      "errors": 0,
+      "label": "drift"
+     },
+     "code-zh": {
+      "n": 15,
+      "bad": 1,
+      "errors": 0,
+      "label": "drift"
+     }
+    },
+    "miss": {
+     "bad": 1,
+     "n": 30
+    },
+    "falseAlarm": {
+     "bad": 0,
+     "n": 30
+    },
+    "errors": 0
+   },
+   "medianMs": 557.2592999999999,
+   "p95Ms": 1517.3307,
+   "n": 226
+  },
+  {
+   "key": "gemma4:12b",
+   "label": "gemma4:12b",
+   "bySubset": {
+    "ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "en": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "zh": {
+     "n": 30,
+     "bad": 1,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-en-ja-words": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-ja-en-quote": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-ja": {
+     "n": 12,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-en": {
+     "n": 12,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "short-zh": {
+     "n": 12,
+     "bad": 2,
+     "errors": 0,
+     "label": "drift"
+    },
+    "kanji-ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "kanji-zh": {
+     "n": 30,
+     "bad": 8,
+     "errors": 0,
+     "label": "drift"
+    }
+   },
+   "miss": {
+    "bad": 11,
+    "n": 134
+   },
+   "falseAlarm": {
+    "bad": 0,
+    "n": 92
+   },
+   "errors": 0,
+   "code": {
+    "bySubset": {
+     "code-ja": {
+      "n": 30,
+      "bad": 0,
+      "errors": 0,
+      "label": "ja"
+     },
+     "code-en": {
+      "n": 15,
+      "bad": 0,
+      "errors": 0,
+      "label": "drift"
+     },
+     "code-zh": {
+      "n": 15,
+      "bad": 0,
+      "errors": 0,
+      "label": "drift"
+     }
+    },
+    "miss": {
+     "bad": 0,
+     "n": 30
+    },
+    "falseAlarm": {
+     "bad": 0,
+     "n": 30
+    },
+    "errors": 0
+   },
+   "medianMs": 243.6745,
+   "p95Ms": 369.3562,
+   "n": 226
+  },
+  {
+   "key": "gemma4:12b+think",
+   "label": "gemma4:12b (thinking)",
+   "bySubset": {
+    "ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "en": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "zh": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-en-ja-words": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-ja-en-quote": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-ja": {
+     "n": 12,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-en": {
+     "n": 12,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "short-zh": {
+     "n": 12,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "kanji-ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "kanji-zh": {
+     "n": 30,
+     "bad": 1,
+     "errors": 0,
+     "label": "drift"
+    }
+   },
+   "miss": {
+    "bad": 1,
+    "n": 134
+   },
+   "falseAlarm": {
+    "bad": 0,
+    "n": 92
+   },
+   "errors": 0,
+   "code": {
+    "bySubset": {
+     "code-ja": {
+      "n": 30,
+      "bad": 0,
+      "errors": 0,
+      "label": "ja"
+     },
+     "code-en": {
+      "n": 15,
+      "bad": 0,
+      "errors": 0,
+      "label": "drift"
+     },
+     "code-zh": {
+      "n": 15,
+      "bad": 0,
+      "errors": 0,
+      "label": "drift"
+     }
+    },
+    "miss": {
+     "bad": 0,
+     "n": 30
+    },
+    "falseAlarm": {
+     "bad": 0,
+     "n": 30
+    },
+    "errors": 0
+   },
+   "medianMs": 6423.00065,
+   "p95Ms": 10875.0959,
+   "n": 226
+  },
+  {
+   "key": "gpt-6-luna",
+   "label": "gpt-6-luna",
+   "bySubset": {
+    "ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "en": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "zh": {
+     "n": 30,
+     "bad": 1,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-en-ja-words": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-ja-en-quote": {
+     "n": 19,
+     "bad": 2,
+     "errors": 1,
+     "label": "ja"
+    },
+    "short-ja": {
+     "n": 12,
+     "bad": 1,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-en": {
+     "n": 12,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "short-zh": {
+     "n": 12,
+     "bad": 5,
+     "errors": 0,
+     "label": "drift"
+    },
+    "kanji-ja": {
+     "n": 30,
+     "bad": 8,
+     "errors": 0,
+     "label": "ja"
+    },
+    "kanji-zh": {
+     "n": 30,
+     "bad": 7,
+     "errors": 0,
+     "label": "drift"
+    }
+   },
+   "miss": {
+    "bad": 13,
+    "n": 134
+   },
+   "falseAlarm": {
+    "bad": 11,
+    "n": 91
+   },
+   "errors": 1,
+   "code": {
+    "bySubset": {
+     "code-ja": {
+      "n": 29,
+      "bad": 0,
+      "errors": 1,
+      "label": "ja"
+     },
+     "code-en": {
+      "n": 15,
+      "bad": 0,
+      "errors": 0,
+      "label": "drift"
+     },
+     "code-zh": {
+      "n": 15,
+      "bad": 1,
+      "errors": 0,
+      "label": "drift"
+     }
+    },
+    "miss": {
+     "bad": 1,
+     "n": 30
+    },
+    "falseAlarm": {
+     "bad": 0,
+     "n": 29
+    },
+    "errors": 1
+   },
+   "medianMs": 206.8689,
+   "p95Ms": 334.6436,
+   "n": 226
+  },
+  {
+   "key": "jev",
+   "label": "jev-1.14.0",
+   "bySubset": {
+    "ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "en": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "zh": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-en-ja-words": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-ja-en-quote": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-ja": {
+     "n": 12,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-en": {
+     "n": 12,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "short-zh": {
+     "n": 12,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "kanji-ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "kanji-zh": {
+     "n": 30,
+     "bad": 2,
+     "errors": 0,
+     "label": "drift"
+    }
+   },
+   "miss": {
+    "bad": 2,
+    "n": 134
+   },
+   "falseAlarm": {
+    "bad": 0,
+    "n": 92
+   },
+   "errors": 0,
+   "code": {
+    "bySubset": {
+     "code-ja": {
+      "n": 30,
+      "bad": 0,
+      "errors": 0,
+      "label": "ja"
+     },
+     "code-en": {
+      "n": 15,
+      "bad": 0,
+      "errors": 0,
+      "label": "drift"
+     },
+     "code-zh": {
+      "n": 15,
+      "bad": 0,
+      "errors": 0,
+      "label": "drift"
+     }
+    },
+    "miss": {
+     "bad": 0,
+     "n": 30
+    },
+    "falseAlarm": {
+     "bad": 0,
+     "n": 30
+    },
+    "errors": 0
+   },
+   "medianMs": 125.4005,
+   "p95Ms": 140.3735,
+   "n": 226
+  }
+ ],
+ "metas": [
+  {
+   "kind": "meta",
+   "checker": "claude-haiku-5-5-nothink",
+   "node": "v26.13.1",
+   "date": "2026-11-27",
+   "idleBefore": 0.779,
+   "split": "test",
+   "items": 256,
+   "platform": "darwin arm64",
+   "versions": {
+    "judge": "claude-haiku-5-5"
+   }
+  },
+  {
+   "kind": "meta",
+   "checker": "claude-haiku-5-5-nothink",
+   "node": "v26.13.1",
+   "date": "2026-11-27",
+   "idleBefore": 0.946,
+   "split": "test",
+   "items": 30,
+   "platform": "darwin arm64",
+   "versions": {
+    "judge": "claude-haiku-5-5",
+    "label": "claude-haiku-5-5 (no thinking)"
+   }
+  },
+  {
+   "kind": "meta",
+   "checker": "claude-haiku-5-5",
+   "node": "v26.13.1",
+   "date": "2026-11-27",
+   "idleBefore": 0.853,
+   "split": "test",
+   "items": 256,
+   "platform": "darwin arm64",
+   "versions": {
+    "judge": "claude-haiku-5-5"
+   }
+  },
+  {
+   "kind": "meta",
+   "checker": "claude-haiku-5-5",
+   "node": "v26.13.1",
+   "date": "2026-11-27",
+   "idleBefore": 0.867,
+   "split": "test",
+   "items": 30,
+   "platform": "darwin arm64",
+   "versions": {
+    "judge": "claude-haiku-5-5",
+    "label": "claude-haiku-5-5"
+   }
+  },
+  {
+   "kind": "meta",
+   "checker": "fasttext",
+   "node": "v26.13.1",
+   "date": "2026-11-27",
+   "idleBefore": 0.851,
+   "split": "all",
+   "items": 575,
+   "platform": "darwin arm64",
+   "versions": {
+    "python": "3.13.17",
+    "fasttext-numpy2-wheel": "0.9.2",
+    "model": "lid.176.ftz"
+   }
+  },
+  {
+   "kind": "meta",
+   "checker": "franc",
+   "node": "v26.13.1",
+   "date": "2026-11-27",
+   "idleBefore": 0.939,
+   "split": "all",
+   "items": 575,
+   "platform": "darwin arm64",
+   "versions": {
+    "franc": "6.2.0"
+   }
+  },
+  {
+   "kind": "meta",
+   "checker": "gemma4:12b",
+   "node": "v26.13.1",
+   "date": "2026-11-27",
+   "idleBefore": 0.834,
+   "split": "test",
+   "items": 256,
+   "platform": "darwin arm64",
+   "versions": {
+    "judge": "gemma4:12b (Ollama)"
+   }
+  },
+  {
+   "kind": "meta",
+   "checker": "gemma4:12b",
+   "node": "v26.13.1",
+   "date": "2026-11-27",
+   "idleBefore": 0.804,
+   "split": "test",
+   "items": 30,
+   "platform": "darwin arm64",
+   "versions": {
+    "judge": "gemma4:12b (Ollama)",
+    "label": "gemma4:12b",
+    "ollama": "0.40.17",
+    "digest": "c7597fc90b86aff6965317f37dd5465402284e26382d9b4bf2dfe3ef1491f4b6"
+   }
+  },
+  {
+   "kind": "meta",
+   "checker": "gemma4:12b+think",
+   "node": "v26.13.1",
+   "date": "2026-11-27",
+   "idleBefore": 0.778,
+   "split": "test",
+   "items": 256,
+   "platform": "darwin arm64",
+   "versions": {
+    "judge": "gemma4:12b (Ollama, thinking)"
+   }
+  },
+  {
+   "kind": "meta",
+   "checker": "gemma4:12b+think",
+   "node": "v26.13.1",
+   "date": "2026-11-27",
+   "idleBefore": 0.889,
+   "split": "test",
+   "items": 30,
+   "platform": "darwin arm64",
+   "versions": {
+    "judge": "gemma4:12b (Ollama, thinking)",
+    "label": "gemma4:12b (thinking)",
+    "ollama": "0.40.17",
+    "digest": "c7597fc90b86aff6965317f37dd5465402284e26382d9b4bf2dfe3ef1491f4b6"
+   }
+  },
+  {
+   "kind": "meta",
+   "checker": "gpt-6-luna",
+   "node": "v26.13.1",
+   "date": "2026-11-27",
+   "idleBefore": 0.909,
+   "split": "test",
+   "items": 256,
+   "platform": "darwin arm64",
+   "versions": {
+    "judge": "gpt-6-luna"
+   }
+  },
+  {
+   "kind": "meta",
+   "checker": "gpt-6-luna",
+   "node": "v26.13.1",
+   "date": "2026-11-27",
+   "idleBefore": 0.939,
+   "split": "test",
+   "items": 30,
+   "platform": "darwin arm64",
+   "versions": {
+    "judge": "gpt-6-luna",
+    "label": "gpt-6-luna"
+   }
+  },
+  {
+   "kind": "meta",
+   "checker": "jev",
+   "node": "v26.13.1",
+   "date": "2026-11-27",
+   "idleBefore": 0.779,
+   "split": "test",
+   "items": 256,
+   "platform": "darwin arm64",
+   "versions": {
+    "judge": "jev-1.14.0"
+   }
+  },
+  {
+   "kind": "meta",
+   "checker": "jev",
+   "node": "v26.13.1",
+   "date": "2026-11-27",
+   "idleBefore": 0.931,
+   "split": "test",
+   "items": 30,
+   "platform": "darwin arm64",
+   "versions": {
+    "judge": "jev-1.14.0",
+    "label": "jev-1.14.0"
+   }
+  },
+  {
+   "kind": "meta",
+   "checker": "rules",
+   "node": "v26.13.1",
+   "date": "2026-11-27",
+   "idleBefore": 0.808,
+   "split": "all",
+   "items": 575,
+   "platform": "darwin arm64",
+   "versions": {
+    "node": "v26.13.1"
+   }
+  },
+  {
+   "kind": "meta",
+   "checker": "tinyld",
+   "node": "v26.13.1",
+   "date": "2026-11-27",
+   "idleBefore": 0.938,
+   "split": "all",
+   "items": 575,
+   "platform": "darwin arm64",
+   "versions": {
+    "tinyld": "1.3.4"
+   }
+  }
+ ]
+}
