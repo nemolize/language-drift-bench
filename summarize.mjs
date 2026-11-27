@@ -1,7 +1,8 @@
 // Reads results/*.jsonl and the dataset, picks each heuristic's threshold and minimum length on the dev half,
 // and writes results/summary.json and results/summary.md with every rate measured on the test half.
-// The code-* subsets repeat a base reply with code added; after the input rule their text equals the base's,
-// so they stay out of the rates and bounds and appear only in the "code" table.
+// The code-* subsets repeat a base reply with code added; after the input rule their text is the base's
+// (code-ja items that add a short Japanese clause differ by that clause), so they stay out of the rates and bounds
+// and appear only in the "code" table.
 import fs from "node:fs";
 import path from "node:path";
 import { ROOT, loadDataset, readJsonl, zeroUpperBound, median, percentile } from "./common.mjs";

@@ -119,7 +119,6 @@
 {"kind":"row","k":"gpt-6-luna","id":"mixed-ja-en-quote-15","pred":"ja","ms":194.5595,"pJa":0.85,"served":"gpt-6-luna"}
 {"kind":"row","k":"gpt-6-luna","id":"mixed-ja-en-quote-17","pred":"ja","ms":208.4388,"pJa":0.86,"served":"gpt-6-luna"}
 {"kind":"row","k":"gpt-6-luna","id":"mixed-ja-en-quote-19","pred":"ja","ms":194.94,"pJa":0.8,"served":"gpt-6-luna"}
-{"kind":"row","k":"gpt-6-luna","id":"mixed-ja-en-quote-21","pred":null,"ms":196.0629,"pJa":null,"served":"gpt-6-luna","error":"no YES/NO answer"}
 {"kind":"row","k":"gpt-6-luna","id":"mixed-ja-en-quote-23","pred":"ja","ms":276.0314,"pJa":0.56,"served":"gpt-6-luna"}
 {"kind":"row","k":"gpt-6-luna","id":"mixed-ja-en-quote-25","pred":"ja","ms":193.7564,"pJa":0.56,"served":"gpt-6-luna"}
 {"kind":"row","k":"gpt-6-luna","id":"mixed-ja-en-quote-27","pred":"ja","ms":174.4594,"pJa":0.86,"served":"gpt-6-luna"}
@@ -198,7 +197,6 @@
 {"kind":"row","k":"gpt-6-luna","id":"code-ja-1","pred":"ja","ms":186.9083,"pJa":0.92,"served":"gpt-6-luna"}
 {"kind":"row","k":"gpt-6-luna","id":"code-ja-3","pred":"ja","ms":207.4659,"pJa":0.98,"served":"gpt-6-luna"}
 {"kind":"row","k":"gpt-6-luna","id":"code-ja-5","pred":"ja","ms":189.4867,"pJa":0.97,"served":"gpt-6-luna"}
-{"kind":"row","k":"gpt-6-luna","id":"code-ja-7","pred":null,"ms":259.5995,"pJa":null,"served":"gpt-6-luna","error":"no YES/NO answer"}
 {"kind":"row","k":"gpt-6-luna","id":"code-ja-9","pred":"ja","ms":282.632,"pJa":0.72,"served":"gpt-6-luna"}
 {"kind":"row","k":"gpt-6-luna","id":"code-ja-11","pred":"ja","ms":357.6094,"pJa":0.95,"served":"gpt-6-luna"}
 {"kind":"row","k":"gpt-6-luna","id":"code-ja-13","pred":"ja","ms":195.2213,"pJa":1,"served":"gpt-6-luna"}
@@ -286,3 +284,6 @@
 {"kind":"row","k":"gpt-6-luna","id":"kanji-zh-55","pred":"other","ms":202.3132,"pJa":0.05,"served":"gpt-6-luna"}
 {"kind":"row","k":"gpt-6-luna","id":"kanji-zh-57","pred":"other","ms":191.647,"pJa":0,"served":"gpt-6-luna"}
 {"kind":"row","k":"gpt-6-luna","id":"kanji-zh-59","pred":"other","ms":196.359,"pJa":0.02,"served":"gpt-6-luna"}
+{"kind":"meta","checker":"gpt-6-luna","node":"v26.13.1","date":"2026-11-27","idleBefore":0.905,"split":"test","items":2,"platform":"darwin arm64","versions":{"judge":"gpt-6-luna","label":"gpt-6-luna"}}
+{"kind":"row","k":"gpt-6-luna","id":"mixed-ja-en-quote-21","pred":null,"ms":270.2952,"pJa":null,"error":"no probability in response: {\"model\":\"gpt-6-luna\",\"answers\":[{\"type\":\"refusal\",\"name\":\"q\"}],\"usage\":{\"input_tokens\":60,\"input_tokens_details\":{\"cached_tokens\":0,\"cache_write_tokens\":0},\"output_tokens\":0,\"output_tokens_details\":{"}
+{"kind":"row","k":"gpt-6-luna","id":"code-ja-7","pred":null,"ms":185.6594,"pJa":null,"error":"no probability in response: {\"model\":\"gpt-6-luna\",\"answers\":[{\"type\":\"refusal\",\"name\":\"q\"}],\"usage\":{\"input_tokens\":51,\"input_tokens_details\":{\"cached_tokens\":0,\"cache_write_tokens\":0},\"output_tokens\":0,\"output_tokens_details\":{"}

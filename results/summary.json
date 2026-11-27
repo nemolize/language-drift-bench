@@ -4748,7 +4748,7 @@
     },
     "errors": 1
    },
-   "medianMs": 206.8689,
+   "medianMs": 207.09494999999998,
    "p95Ms": 334.6436,
    "n": 226
   },
@@ -5024,6 +5024,20 @@
    "idleBefore": 0.939,
    "split": "test",
    "items": 30,
+   "platform": "darwin arm64",
+   "versions": {
+    "judge": "gpt-6-luna",
+    "label": "gpt-6-luna"
+   }
+  },
+  {
+   "kind": "meta",
+   "checker": "gpt-6-luna",
+   "node": "v26.13.1",
+   "date": "2026-11-27",
+   "idleBefore": 0.905,
+   "split": "test",
+   "items": 2,
    "platform": "darwin arm64",
    "versions": {
     "judge": "gpt-6-luna",

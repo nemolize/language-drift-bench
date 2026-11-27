@@ -34,8 +34,8 @@ Every text is an invented example reply in the style of a coding assistant; no r
 | `mixed-ja-en-quote` | correct | a Japanese reply and an English quotation of 54 to 81 characters (kana share of the whole at least 0.22) |
 | `mixed-en-ja-words` | drifted | an English reply with one Japanese word or phrase |
 | `short-ja`, `short-en`, `short-zh` | correct, drifted, drifted | 25 replies of at most 20 characters each |
-| `kanji-ja`, `kanji-zh` | correct, drifted | 60 Japanese status lines of kanji only (6 to 8 characters, and 10 to 16); 60 Traditional Chinese lines with no kana (5 to 9 characters, and 20 to 25) |
-| `code-ja`, `code-en`, `code-zh` | correct, drifted, drifted | the `ja` / first 30 `en` / first 30 `zh` replies with a fenced block, inline code or a table added; after the input rule most equal their base reply, so `summarize.mjs` keeps them out of the rates and bounds and shows them in a table of their own (stripped against raw) |
+| `kanji-ja`, `kanji-zh` | correct, drifted | 60 Japanese status lines of kanji only (6 to 8 characters, and 11 to 14); 60 Traditional Chinese lines with no kana (6 to 8 characters, and 20 to 25) |
+| `code-ja`, `code-en`, `code-zh` | correct, drifted, drifted | the `ja` / first 30 `en` / first 30 `zh` replies with a fenced block, inline code or a table added; after the input rule they equal their base reply, or differ by one added Japanese clause (`code-ja`), so `summarize.mjs` keeps them out of the rates and bounds and shows them in a table of their own (stripped against raw) |
 | `code-only` | none | a fenced block alone, 10 items; checks that the input rule leaves nothing |
 
 The label follows from how the item is built, not from a judge. The split is fixed by the base sentence's index (even = `dev`, odd = `test`), so a sentence and every item built from it sit on the same side. The heuristic's settings are chosen on `dev`; every rate in `results/summary.md` is measured on `test`. Judges run on `test` only.
