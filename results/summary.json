@@ -4426,6 +4426,224 @@
    "n": 226
   },
   {
+   "key": "gemini-3.8-flash",
+   "label": "gemini-3.8-flash",
+   "bySubset": {
+    "ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "en": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "zh": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-en-ja-words": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-ja-en-quote": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-ja": {
+     "n": 12,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-en": {
+     "n": 12,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "short-zh": {
+     "n": 12,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "kanji-ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "kanji-zh": {
+     "n": 30,
+     "bad": 1,
+     "errors": 0,
+     "label": "drift"
+    }
+   },
+   "miss": {
+    "bad": 1,
+    "n": 134
+   },
+   "falseAlarm": {
+    "bad": 0,
+    "n": 92
+   },
+   "errors": 0,
+   "code": {
+    "bySubset": {
+     "code-ja": {
+      "n": 30,
+      "bad": 0,
+      "errors": 0,
+      "label": "ja"
+     },
+     "code-en": {
+      "n": 15,
+      "bad": 0,
+      "errors": 0,
+      "label": "drift"
+     },
+     "code-zh": {
+      "n": 15,
+      "bad": 0,
+      "errors": 0,
+      "label": "drift"
+     }
+    },
+    "miss": {
+     "bad": 0,
+     "n": 30
+    },
+    "falseAlarm": {
+     "bad": 0,
+     "n": 30
+    },
+    "errors": 0
+   },
+   "medianMs": 2233.36175,
+   "p95Ms": 3179.5997,
+   "n": 226
+  },
+  {
+   "key": "gemini-decision-1",
+   "label": "gemini-decision-1",
+   "bySubset": {
+    "ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "en": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "zh": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-en-ja-words": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "mixed-ja-en-quote": {
+     "n": 20,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-ja": {
+     "n": 12,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "short-en": {
+     "n": 12,
+     "bad": 3,
+     "errors": 0,
+     "label": "drift"
+    },
+    "short-zh": {
+     "n": 12,
+     "bad": 0,
+     "errors": 0,
+     "label": "drift"
+    },
+    "kanji-ja": {
+     "n": 30,
+     "bad": 0,
+     "errors": 0,
+     "label": "ja"
+    },
+    "kanji-zh": {
+     "n": 30,
+     "bad": 1,
+     "errors": 0,
+     "label": "drift"
+    }
+   },
+   "miss": {
+    "bad": 4,
+    "n": 134
+   },
+   "falseAlarm": {
+    "bad": 0,
+    "n": 92
+   },
+   "errors": 0,
+   "code": {
+    "bySubset": {
+     "code-ja": {
+      "n": 30,
+      "bad": 0,
+      "errors": 0,
+      "label": "ja"
+     },
+     "code-en": {
+      "n": 15,
+      "bad": 0,
+      "errors": 0,
+      "label": "drift"
+     },
+     "code-zh": {
+      "n": 15,
+      "bad": 0,
+      "errors": 0,
+      "label": "drift"
+     }
+    },
+    "miss": {
+     "bad": 0,
+     "n": 30
+    },
+    "falseAlarm": {
+     "bad": 0,
+     "n": 30
+    },
+    "errors": 0
+   },
+   "medianMs": 300.58140000000003,
+   "p95Ms": 375.9339,
+   "n": 226
+  },
+  {
    "key": "gemma4:12b",
    "label": "gemma4:12b",
    "bySubset": {
@@ -4943,6 +5161,34 @@
    "platform": "darwin arm64",
    "versions": {
     "franc": "6.2.0"
+   }
+  },
+  {
+   "kind": "meta",
+   "checker": "gemini-3.8-flash",
+   "node": "v26.13.1",
+   "date": "2026-11-28",
+   "idleBefore": 0.919,
+   "split": "test",
+   "items": 286,
+   "platform": "darwin arm64",
+   "versions": {
+    "judge": "gemini-3.8-flash",
+    "label": "gemini-3.8-flash"
+   }
+  },
+  {
+   "kind": "meta",
+   "checker": "gemini-decision-1",
+   "node": "v26.13.1",
+   "date": "2026-11-28",
+   "idleBefore": 0.83,
+   "split": "test",
+   "items": 286,
+   "platform": "darwin arm64",
+   "versions": {
+    "judge": "gemini-decision-1",
+    "label": "gemini-decision-1"
    }
   },
   {

@@ -10,6 +10,7 @@ node validate.mjs               # dataset and input-rule checks
 node run.mjs rules              # character ratio, kana share, kana presence; every item, every setting
 node run.mjs franc && node run.mjs tinyld && node run.mjs fasttext
 ANTHROPIC_API_KEY=... node run.mjs claude-haiku-5-5                  # also: claude-haiku-5-5-nothink
+GEMINI_API_KEY=... node run.mjs gemini-3.8-flash                     # also: gemini-decision-1
 TYPESAFE_API_KEY=... node run.mjs jev
 OPENAI_API_KEY=... node run.mjs gpt-6-luna
 node run.mjs gemma4:12b && node run.mjs gemma4:12b+think             # Ollama
@@ -51,9 +52,9 @@ The label follows from how the item is built, not from a judge. The split is fix
 | fastText `lid.176.ftz` | `fasttext-numpy2-wheel` 0.9.2 on Python 3.13; the model's SHA-256 is printed by `setup.mjs` |
 | `gemma4:12b` | Ollama, thinking off, YES when the first-token probability of `YES` is at least that of `NO`; and with thinking on, the first word decides |
 | `claude-haiku-5-5` | Messages API, default thinking, and with thinking disabled |
-| `jev-1.14.0`, `gpt-6-luna` | decision models: YES when the probability is at least 0.5 |
+| `jev-1.14.0`, `gpt-6-luna`, `gemini-decision-1` | decision models: YES when the probability is at least 0.5 |
 
-Not measured: `gemini-3.8-flash` and `gemini-decision-1`. The prepayment credits of the Gemini API project were depleted (HTTP 402), so no result exists; `judges.mjs` still carries them.
+`gemini-3.8-flash` (thinking level low; the verdict is the first line of the reply) and `gemini-decision-1` (Gemini Decisions API; YES when the probability is at least 0.5) ran on 2026-11-28, a day after the other checkers, once the Gemini API project had credits again; their meta lines carry that date.
 
 ## Timing
 
